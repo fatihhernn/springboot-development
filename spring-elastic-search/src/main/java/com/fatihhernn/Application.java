@@ -1,14 +1,13 @@
 package com.fatihhernn;
 
-
 import org.springframework.boot.SpringApplication;
+import org.springframework.boot.SpringBootConfiguration;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
-import org.springframework.data.mongodb.repository.config.EnableMongoRepositories;
+import org.springframework.data.elasticsearch.repository.config.EnableElasticsearchRepositories;
 
 @SpringBootApplication
-@EnableMongoRepositories
+@EnableElasticsearchRepositories
 public class Application {
-
     public static void main(String[] args) {
         SpringApplication.run(Application.class,args);
     }
