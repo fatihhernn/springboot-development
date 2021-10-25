@@ -13,6 +13,7 @@
         <module>spring-hello-world</module>
         <module>spring-elastic-search</module>
         <module>spring-dataJPA-postgreSQL</module>
+        <module>spring-api-documentation</module>
     </modules>
 
     <properties>
