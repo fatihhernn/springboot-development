@@ -12,6 +12,7 @@
         <module name="spring-api-documentation" />
         <module name="spring-hello-world" />
         <module name="spring-dataJPA-postgreSQL" />
+        <module name="spring-rabbitMQ" />
       </profile>
     </annotationProcessing>
   </component>
@@ -21,6 +22,7 @@
       <module name="spring-dataJPA-postgreSQL" options="-parameters" />
       <module name="spring-elastic-search" options="-parameters" />
       <module name="spring-mongo-rest-api" options="-parameters" />
+      <module name="spring-rabbitMQ" options="-parameters" />
     </option>
   </component>
 </project>
