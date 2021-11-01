@@ -3,6 +3,7 @@
   <component name="Encoding">
     <file url="file://$PROJECT_DIR$/spring-api-documentation/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spring-dataJPA-postgreSQL/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-dockerization/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spring-elastic-search/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spring-mongo-rest-api/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spring-rabbitMQ/src/main/java" charset="UTF-8" />

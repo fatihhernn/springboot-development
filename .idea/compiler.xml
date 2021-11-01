@@ -7,22 +7,32 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="spring-api-documentation" />
+        <module name="springboot-dataJPA-postgreSQL" />
+        <module name="spring-rabbitMQ" />
+        <module name="spring-rabbitmq" />
         <module name="spring-mongo-rest-api" />
         <module name="spring-elastic-search" />
-        <module name="spring-api-documentation" />
         <module name="spring-hello-world" />
         <module name="spring-dataJPA-postgreSQL" />
-        <module name="spring-rabbitMQ" />
+        <module name="dockerization" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="spring-dockerization" target="8" />
+    </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="dockerization" options="-parameters" />
       <module name="spring-api-documentation" options="-parameters" />
       <module name="spring-dataJPA-postgreSQL" options="-parameters" />
+      <module name="spring-dockerization" options="-parameters" />
       <module name="spring-elastic-search" options="-parameters" />
       <module name="spring-mongo-rest-api" options="-parameters" />
       <module name="spring-rabbitMQ" options="-parameters" />
+      <module name="spring-rabbitmq" options="-parameters" />
+      <module name="springboot-dataJPA-postgreSQL" options="-parameters" />
     </option>
   </component>
 </project>
