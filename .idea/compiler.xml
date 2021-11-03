@@ -11,28 +11,26 @@
         <module name="springboot-dataJPA-postgreSQL" />
         <module name="spring-rabbitMQ" />
         <module name="spring-rabbitmq" />
-        <module name="spring-mongo-rest-api" />
+        <module name="spring-graphql" />
         <module name="spring-elastic-search" />
         <module name="spring-aop" />
+        <module name="spring-mongo-rest-api" />
         <module name="spring-hello-world" />
         <module name="spring-dataJPA-postgreSQL" />
         <module name="dockerization" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
-      <module name="spring-dockerization" target="8" />
-    </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_STRING" value="--enable-preview" />
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="dockerization" options="-parameters" />
       <module name="spring-aop" options="-parameters" />
       <module name="spring-api-documentation" options="-parameters" />
-      <module name="spring-dataJPA-postgreSQL" options="-parameters" />
-      <module name="spring-dockerization" options="-parameters" />
       <module name="spring-elastic-search" options="-parameters" />
+      <module name="spring-graphql" options="-parameters" />
+      <module name="spring-hello-world" options="" />
       <module name="spring-mongo-rest-api" options="-parameters" />
-      <module name="spring-rabbitMQ" options="-parameters" />
       <module name="spring-rabbitmq" options="-parameters" />
       <module name="springboot-dataJPA-postgreSQL" options="-parameters" />
     </option>

@@ -1,0 +1,26 @@
+#geri dönüş nesneleri type ile ifade edilir
+type Vehicle{
+    id:ID!,
+    type:String,
+    modelCode:String,
+    brandName:String,
+    launchDate:String,
+}
+
+#sunucunun kabul ettiği değerler ise input diyerek tanımlıyoruz
+input VehicleDto{
+    type:String,
+    modelCode:String,
+    brandName:String
+}
+
+#sunucudan getireceğim data için verilmesi gereken query
+type Query{
+    getVehicles(type:String):[Vehicle]
+    getById(id:ID):Vehicle
+}
+
+#sunucudaki kayıtları manipule etmek için ihtiyacım olan resolver
+type Mutation{
+    createVehicle(vehicle:VehicleDto):Vehicle
+}
