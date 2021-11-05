@@ -9,6 +9,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="spring-api-documentation" />
         <module name="springboot-dataJPA-postgreSQL" />
+        <module name="spring-rest-template" />
         <module name="spring-rabbitMQ" />
         <module name="spring-rabbitmq" />
         <module name="spring-graphql" />
@@ -32,6 +33,7 @@
       <module name="spring-hello-world" options="" />
       <module name="spring-mongo-rest-api" options="-parameters" />
       <module name="spring-rabbitmq" options="-parameters" />
+      <module name="spring-rest-template" options="-parameters" />
       <module name="springboot-dataJPA-postgreSQL" options="-parameters" />
     </option>
   </component>

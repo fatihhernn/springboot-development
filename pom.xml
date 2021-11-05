@@ -15,6 +15,7 @@
         <module>spring-dataJPA-postgreSQL</module>
         <module>spring-api-documentation</module>
         <module>spring-graphql</module>
+        <module>spring-rest-template</module>
     </modules>
 
     <properties>
