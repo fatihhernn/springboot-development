@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/bounded-generic-class.iml" filepath="$PROJECT_DIR$/bounded-generic-class.iml" />
-      <module fileurl="file://$PROJECT_DIR$/generic.iml" filepath="$PROJECT_DIR$/generic.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-redis-cache/spring-redis-cache.iml" filepath="$PROJECT_DIR$/spring-redis-cache/spring-redis-cache.iml" />
     </modules>
   </component>
 </project>

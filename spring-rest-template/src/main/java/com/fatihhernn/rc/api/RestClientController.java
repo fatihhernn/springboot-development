@@ -34,6 +34,4 @@ public class RestClientController {
         UserDto responseBody=result.getBody();
         return  ResponseEntity.ok(responseBody);
     }
-
-
 }
